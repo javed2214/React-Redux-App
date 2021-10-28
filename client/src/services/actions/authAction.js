@@ -34,7 +34,7 @@ export const login = (user) => {
                     dispatch({
                         type: USER_LOGIN,
                         token: resp.data.token,
-                        success: true
+                        success: resp.data.success
                     })
                 }
             })

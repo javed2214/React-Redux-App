@@ -1,9 +1,10 @@
 import React from 'react'
+import Router from './components/navbar/Router';
 
 const App = () => {
     return(
-        <div className="container">
-            <h4>Hello World!</h4>
+        <div>
+            <Router />
         </div>
     )
 }
